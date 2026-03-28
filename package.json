@@ -1,0 +1,20 @@
+{
+  "name": "aetherforge",
+  "version": "1.0.0",
+  "description": "AetherForge - Composable NFT Yield & Liquidity Engine that earns protocol fees from fractionalization, renting, and lending activities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy": "hardhat deploy",
+    "lint": "solhint 'contracts/**/*.sol'",
+    "audit": "npm audit"
+  },
+  "devDependencies": {
+    "hardhat": "2.19.0",
+    "@nomicfoundation/hardhat-toolbox": "4.0.0",
+    "ethers": "6.7.0",
+    "dotenv": "16.3.1",
+    "solhint": "3.4.1"
+  }
+}
