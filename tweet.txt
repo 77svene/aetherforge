@@ -1,0 +1,7 @@
+Just shipped AetherForge — The Composable NFT Yield & Liquidity Engine for ETHGlobal HackMoney 2026 — LI.FI & Arc/Circle cross‑chain track, prize pool $100K+!
+
+AetherForge captures the $12B NFTfi market by letting users fractionalize, rent, and lend NFTs inside cross‑chain vaults that auto‑compound yield via automated liquidity provision 
+
+https://github.com/77svene/aetherforge
+
+#hackathon #AI #Web3 #DeFi @lablabai

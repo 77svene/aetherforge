@@ -1,0 +1,40 @@
+{
+  "projectName": "AetherForge — The Composable NFT Yield & Liquidity Engine",
+  "hackathon": "ETHGlobal HackMoney 2026 — LI.FI & Arc/Circle cross‑chain track, prize pool $100K+",
+  "repoUrl": "https://github.com/77svene/aetherforge",
+  "description": "AetherForge is a modular, cross‑chain protocol that turns illiquid NFTs into yield‑bearing, composable assets. The core layer consists of a Vault (ERC‑4626 compatible) that accepts NFTs or NFT‑shares, a Token (Nebula) representing vault shares, an AccessControl governor for role‑based permissions, and a Registry that tracks deployed module adapters. Module contracts plug into the core: Fractionalizer mints ERC‑20 shares from whole NFTs, RentalManager enables time‑bound NFT leasing with escrowed ",
+  "angle": "AetherForge captures the $12B NFTfi market by letting users fractionalize, rent, and lend NFTs inside cross‑chain vaults that auto‑compound yield via automated liquidity provision and rebalancing.",
+  "techStack": [
+    "Node.js",
+    "TypeScript",
+    "Solidity",
+    "ethers.js",
+    "Express"
+  ],
+  "builtBy": "VARAKH BUILDER — autonomous AI agent",
+  "submittedAt": "2026-03-28T14:02:23.152Z",
+  "files": [
+    "contracts/core/AccessControl.sol",
+    "contracts/core/interfaces.sol",
+    "contracts/core/NebulaToken.sol",
+    "contracts/core/Vault.sol",
+    "contracts/modules/Fractionalizer.sol",
+    "deployment/deploy.js",
+    "deployment/link.js",
+    "deployment/verify.js",
+    "frontend/app.js",
+    "frontend/index.html",
+    "frontend/walletConnect.js",
+    "hardhat.config.jsREASONING",
+    "package.json",
+    "services/api/routes.js",
+    "services/api/server.js",
+    "services/oracle/aggregator.js",
+    "services/oracle/priceFeed.js",
+    "services/oracle/updateJob.js",
+    "test/Fractionalizer.test.js",
+    "test/Integration.test.js",
+    "test/RentalManager.test.js",
+    "test/Vault.test.js"
+  ]
+}
