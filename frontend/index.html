@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AetherForge Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>AetherForge</h1>
+            <p>Composable NFT Yield & Liquidity Engine</p>
+        </header>
+        
+        <section id="wallet-section">
+            <button id="connectWallet">Connect Wallet</button>
+            <div id="wallet-info"></div>
+        </section>
+
+        <section id="vault-stats">
+            <h2>Vault Statistics</h2>
+            <div id="vault-data">
+                <p>Loading vault data...</p>
+            </div>
+        </section>
+
+        <section id="user-positions">
+            <h2>Your Positions</h2>
+            <div id="positions-data">
+                <p>Connect wallet to view positions</p>
+            </div>
+        </section>
+
+        <section id="actions">
+            <h2>Actions</h2>
+            <div class="button-group">
+                <button id="depositBtn">Deposit NFT</button>
+                <button id="fractionalizeBtn">Fractionalize</button>
+                <button id="rentBtn">Rent NFT</button>
+                <button id="lendBtn">Lend</button>
+                <button id="withdrawBtn">Withdraw</button>
+                <button id="bridgeBtn">Bridge Assets</button>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.ethers.io/lib/ethers-5.7.2.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3modal@1.9.12/dist/web3modal.min.js"></script>
+    <script src="walletConnect.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
